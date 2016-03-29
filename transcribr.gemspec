@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'transcribr/version'
+require 'rack/transcribr/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "transcribr"
-  spec.version       = Transcribr::VERSION
+  spec.name          = "rack-transcribr"
+  spec.version       = Rack::Transcribr::VERSION
   spec.authors       = ["Justin Okamoto"]
   spec.email         = ["justin@bellwethermade.com"]
 
