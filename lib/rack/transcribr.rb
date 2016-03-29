@@ -1,5 +1,4 @@
-require "rack/extensions/string"
-require "transcribr/version"
+require "rack/transcribr/extensions"
 
 module Rack
   class Transcribr
