@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Justin Okamoto"]
   spec.email         = ["justin@bellwethermade.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{This is an experimental gem}
+  spec.description   = %q{I'm experimenting with creating Rack middleware gems, as I plan on creating an alternative to Rack's Rack::CommonLogger. }
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
