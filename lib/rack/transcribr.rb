@@ -11,12 +11,15 @@ module Rack
       status, headers, response = @app.call(env)
 
       # log_file = File.new(@filepath, "w")
-
-      puts response
-      response.each { |line| puts line }
       body = ""
+      puts headers["Content-Type"]
+      puts "USER AGENT".red
+      puts headers
+      puts "ENV"
+      puts env
+      response.each { |line| puts line }
       response.each { |line| body << line }
-      body << "<script type='text/javascript'>console.log('Hello, world.');</script>"
+      body << hello_world
       headers["Content-Length"] = body.length.to_s
       response = [body]
       # if headers["Content-Type"] =~ /text\/html|application\/xhtml\+xml/
