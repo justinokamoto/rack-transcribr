@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Justin Okamoto"]
   spec.email         = ["justin@gmail.com"]
 
-  spec.summary       = %q{This is an experimental gem}
-  spec.description   = %q{I'm experimenting with creating Rack middleware gems, as I plan on creating an alternative to Rack's Rack::CommonLogger. }
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{ This gem is a replacement for Rack's CommonLogger }
+  spec.description   = %q{ I'm experimenting with creating Rack middleware gems. This gem mimics CommonLogger statements and colorizes them based on HTTP request type. }
+  spec.homepage      = "https://github.com/justinokamoto/rack-transcribr.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
