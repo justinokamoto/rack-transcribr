@@ -18,6 +18,17 @@ Or install it yourself as:
 
     $ gem install rack-transcribr
 
+### For Rails
+
+Install the gem and add this line in your application.rb
+`config.middleware.use 'Rack::Transcribr'`
+
+### For Rack
+
+Install the gem and add these lines to your config.ru
+`require 'rack/transcribr'
+use Rack::Transcribr`
+
 ## Usage
 
 Simply install in your rack app.
