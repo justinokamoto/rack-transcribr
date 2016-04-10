@@ -1,8 +1,6 @@
 # Rack-Transcribr
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rack-transcribr`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+I'm experimenting with creating Rack middleware gems. This lightweight gem servers as a replacement to Rack's CommonLogger statements. Improvements include colorized terminal output based on HTTP request method.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Simply install in your rack app.
 
 ## Development
 

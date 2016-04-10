@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["justin@gmail.com"]
 
   spec.summary       = %q{ This gem is a replacement for Rack's CommonLogger }
-  spec.description   = %q{ I'm experimenting with creating Rack middleware gems. This gem mimics CommonLogger statements and colorizes them based on HTTP request type. }
+  spec.description   = %q{ I'm experimenting with creating Rack middleware gems. This lightweight gem servers as a replacement to Rack's CommonLogger statements. Improvements include colorized terminal output based on HTTP request method. }
   spec.homepage      = "https://github.com/justinokamoto/rack-transcribr.git"
   spec.license       = "MIT"
 
